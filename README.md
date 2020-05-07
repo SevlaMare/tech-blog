@@ -1,24 +1,87 @@
-# README
+# Blogger
+> A Blog about tech world.<br>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![screenshot](screenshot.png)
 
-Things you may want to cover:
+<br>A blog where people can read and write about tech.<br>
 
-* Ruby version
+## Content
 
-* System dependencies
+* [Features](#features)
+* [Built With](#built-with)
+* [Getting Start](#getting-start)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
+* [Author](#author)
+* [License](#license)
 
-* Configuration
+## Features
 
-* Database creation
+<ul>
+  <li>User can make a account and login</li>
+  <li>Users can make post, edit and delete your own posts</li>
+  <li>Show have a comments section</li>
+  <li>Spam message to confirm if a post is create, edit or delete</li>
+  <li>Ask to confirm when want to delete a post</li>
+</ul>
 
-* Database initialization
+## Built With
 
-* How to run the test suite
+- Ruby 2.7<br>
+- Ruby on Rails 5.2 <br>
+- RSpec (Unit testing) <br>
+- Rubocop (Linter) with Stickler (CI Tool) <br>
+- Git, Github and VScode <br>
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Start
 
-* Deployment instructions
+You can visit it at:
+[heroku](http)
 
-* ...
+But if you want to run in your local machine, follow the insctructions below.
+
+#### Install
+To use this program, you will need install:
+* Ruby Language - Version 2.7 - [Install guide](https://www.ruby-lang.org/en/documentation/installation/)
+
+* Ruby on Rails - Version 5.2 - [Install guide](https://guides.rubyonrails.org/v5.0/getting_started.html#installing-rails)
+
+
+#### Get a local copy
+Now you need a copy of this application, if you are using Git:
+```js
+git clone git@github.com:SevlaMare/blogger_v3.git
+```
+Otherwise just hit (Download Zip) on green button (Clone or Download) at top of this page.
+
+
+#### Run
+To run, from the application folder, just type on terminal:
+```js
+rails server
+```
+Now you can go to your favorite web browser like Google Crome
+<br>and go to this page: localhost
+
+### Contributing
+
+Contributions, issues and feature requests are welcome!
+
+You can do it on [issues page](issues/).
+
+## Acknowledgments
+
+A special thanks for the code reviewers.
+
+## Author
+
+👤 **Thiago Miranda**
+
+- Github: [@SevlaMare](https://github.com/SevlaMare)
+- Twitter: [#SevlaMare)](https://twitter.com/SevlaMare)
+- Linkedin: [SevlaMare)](https://www.linkedin.com/in/sevlamare)
+
+### License
+
+<strong>MIT</strong>
+
