@@ -27,6 +27,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'faker'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
