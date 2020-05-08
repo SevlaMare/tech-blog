@@ -1,3 +1,11 @@
-hi world
+<h1>All Articles</h1>
 
-<%# TODO: render all articles here %>
+<ul id="articles">
+  <% @articles.each do |line| %>
+    <li>
+      <%= link_to line.title, article_path(line) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Article", new_article_path, class: "new_article" %>

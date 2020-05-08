@@ -1,6 +1,6 @@
 require 'faker'
 
-tags_qty = 6
+tags_qty = 10
 tags_qty.times do
   Tag.create({name: Faker::Company.unique.name})
 end
@@ -21,6 +21,8 @@ end
 
   # set taggings from existing tags
   3.times do
-    article_x.taggings.create(tag_id: rand(1..tags_qty).to_i)
+    article_x.taggings.create(
+      tag_id: rand(1..tags_qty).to_i
+    )
   end
 end
