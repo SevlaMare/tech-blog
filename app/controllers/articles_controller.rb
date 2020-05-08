@@ -22,7 +22,10 @@ class ArticlesController < ApplicationController
   end
 
   # --- DELETE ---
-  def destoy
+  def destroy
+    @article = Article.find(params[:id])      
+    @article.destroy
+    redirect_to articles_path(@articles)
   end
   
   # --- UPDATE ---
