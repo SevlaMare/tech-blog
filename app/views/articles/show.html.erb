@@ -1,15 +1,16 @@
+<%# Query Article %>
 <h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
 
+
+<%# Article buttons %>
 <%= link_to "<< Back", articles_path %>
-
 <%= link_to "Edit", edit_article_path(@article) %>
-
 <%= link_to "Delete", article_path(@article), method: :delete, 
 data: {confirm: "You really want to delete it?"} %>
 
+
 <h3>Comments</h3>
 <%= render partial: 'comments/form' %>
-
 <%= render partial: 'articles/comment',
 collection: @article.comments %>
