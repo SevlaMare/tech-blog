@@ -7,4 +7,9 @@
       comment.article.created_at, comment.created_at) 
     %> later
   </p>
+
+  <%# Delete Button %>
+  <%= link_to "Delete comments",
+  article_comment_path(comment.article, comment),
+  method: :delete %>
 </div>
