@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :articles do
-    resources :comments, only: [:show, :create, :destroy]
+    resources :comments
   end
-  resources :tags, except: [:destroy, :edit, :update]
+  resources :tags
   root to: 'articles#index'
 end
