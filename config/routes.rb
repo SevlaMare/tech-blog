@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   end
   resources :tags
   root to: 'articles#index'
+  get '/about', to: 'about#index'
 end
