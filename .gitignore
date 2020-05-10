@@ -1,10 +1,6 @@
 # bundler config
 /.bundle
 
-# example database
-# /db/*.sqlite3
-# /db/*.sqlite3-journal
-
 # logfiles and tempfiles
 /log/*
 /tmp/*
