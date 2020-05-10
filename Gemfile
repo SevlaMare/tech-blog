@@ -23,10 +23,10 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-group :development, :test do
-  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-end
+# group :development, :test do
+#   gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+# end
 
 group :test do
   gem 'capybara', '>= 2.15'

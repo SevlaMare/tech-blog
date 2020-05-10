@@ -8,6 +8,8 @@ development:
   <<: *default
   database: tech_blog_develop_2
   host: localhost
+  # if docker
+  # host: 127.0.0.1
   port: 5433
   username: apptest
   password: password1
