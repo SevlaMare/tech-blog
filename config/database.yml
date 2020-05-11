@@ -22,5 +22,5 @@ production:
   <<: *default
   database: tech_blog
   username: app_postgres
-  # password: <%= ENV['APP_POSTGRES_DATABASE_PASSWORD'] %>
+  password: <%= ENV['APP_POSTGRES_DATABASE_PASSWORD'] %>
   # DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
