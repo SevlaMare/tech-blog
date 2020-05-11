@@ -41,7 +41,7 @@
 ## Getting Start
 
 You can visit it at:
-[heroku](http)
+[heroku](https://tech-blog-794.herokuapp.com)
 
 But if you want to run in your local machine, follow the insctructions below.
 
