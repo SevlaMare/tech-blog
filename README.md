@@ -68,7 +68,7 @@ To run, from the application folder, just type on terminal:
 rails server
 ```
 Now you can go to your favorite web browser like Google Crome
-<br>and go to this page: localhost
+<br>and go to this page: http://localhost:3000/
 
 ### Contributing
 
