@@ -18,11 +18,16 @@
 ## Features
 
 <ul>
+  <li>Visitors can make post, edit and delete</li>
+  <li>Each article have a comment section</li>
+  <li>Spam message to confirm create, edit or delete</li>
+</ul>
+
+<ul>
+  <h3>Upcoming features</h3>
+  <li>Allow upload images</li>
   <li>User can make a account and login</li>
-  <li>Users can make post, edit and delete your own posts</li>
-  <li>Show have a comments section</li>
-  <li>Spam message to confirm if a post is create, edit or delete</li>
-  <li>Ask to confirm when want to delete a post</li>
+  <li>Administrator user to manage articles and comments</li>
 </ul>
 
 ## Built With
