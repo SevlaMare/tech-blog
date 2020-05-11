@@ -22,7 +22,7 @@
   <li>Each article have a comment section</li>
   <li>Spam window to confirm create, edit or delete articles</li>
   <li>Show a count of how many comments the article has</li>
-  <li>Show timestamp to see when the post was made</li>
+  <li>Show timestamp to see when the comment was made</li>
 </ul>
 
 <ul>
